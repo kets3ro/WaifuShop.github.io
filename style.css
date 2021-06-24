@@ -1,0 +1,105 @@
+body { background: url(images/bg2.jpg)no-repeat;background-size: cover;background-attachment:fixed;overflow: hidden;} /* типа главный фон епт */
+@font-face {
+    font-family: Anime_Ace_v05; /*  шрифт */
+    src: url(fonts/Anime_Ace_v05.ttf); /* путь к папке */
+   }
+   .content {
+		width: 1950px; height: 120px; background-image: url(images/bg1.jpg); background-position: all; background-size: cover; font-family: Anime_Ace_v05; text-align: center; margin: 0px; border: 1px solid black;font-size: 29px;
+	font-size: 19px; margin-bottom: 217px;opacity: 0.8; margin-left: 0px;
+	color: #D8D8D8;
+	text-shadow: 
+		-0   -3px 1px #000000,
+		 0   -3px 1px #000000,
+		-0    3px 1px #000000,
+		 0    3px 1px #000000,
+		-3px -0   1px #000000,
+		 3px -0   1px #000000,
+		-3px  0   1px #000000,
+		 3px  0   1px #000000,
+		-1px -3px 1px #000000,
+		 1px -3px 1px #000000,
+		-1px  3px 1px #000000,
+		 1px  3px 1px #000000,
+		-3px -1px 1px #000000,
+		 3px -1px 1px #000000,
+		-3px  1px 1px #000000,
+		 3px  1px 1px #000000,
+		-2px -3px 1px #000000,
+		 2px -3px 1px #000000,
+		-2px  3px 1px #000000,
+		 2px  3px 1px #000000,
+		-3px -2px 1px #000000,
+		 3px -2px 1px #000000,
+		-3px  2px 1px #000000,
+		 3px  2px 1px #000000,
+		-3px -3px 1px #000000,
+		 3px -3px 1px #000000,
+		-3px  3px 1px #000000,
+		 3px  3px 1px #000000,
+		-3px -3px 1px #000000,
+		 3px -3px 1px #000000,
+		-3px  3px 1px #000000,
+		 3px  3px 1px #000000;}
+* {
+margin: 0;
+padding: 0;
+}
+		 div {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;}
+div ul {
+    display: inline-block;
+}/*подогнал меню по центру*/
+
+		 .menu {text-align: center;}
+		 .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu a { background-image: url(images/bg1.jpg); display: block; } /*БЛОЧНЫЕ ССЫЛКИ*/
+.menu { width: 300px;} /*ШИРИНА МЕНЮ*/
+.menu a {
+    border-top: 0px solid blue;
+}
+.menu {
+    border-bottom: 0px solid blue;
+}/*РАЗДЕЛЕНИЕ ПУНКТОВ*/
+.menu a {
+  height: 30px;
+  line-height: 30px;
+}/*ВЫСОТА ПУНКТОВ И ВЕРТИКАЛЬНОЕ ВЫРАВНИВАНИЕ*/
+@font-face {
+    font-family: ValueSansPro; /*  шрифт */
+    src: url(fonts/ValueSansPro.ttf); /* путь к папке */
+   }
+.menu a {
+  text-decoration: none;
+  font-family: ValueSansPro;
+  color: #1E1F25;
+  font-size:30px;
+  display: list-item;
+  padding: 25px 25px;
+  background-color: #9D9D9D;
+  border-bottom: 10px solid #1F81A0;
+  opacity: 0.8;
+  margin-bottom:10px;
+} /*стиль типо */
+.nocopy {width: 1900px; 
+	height: 110px; background-image: url(images/bg1.jpg);
+	background-position: all; background-size: cover; font-family: ValueSansPro; 
+	text-align: ; padding-right: 50px; border: 1px solid black;font-size: 29px;
+	font-size: 15px;opacity: 0.8;
+	color: #D8D8D8;
+margin: 0;}
+* {
+margin: 0;
+padding: 0;
+}
+/*КАПИРАЙТ*/
+	.cards {float: center;}/*ОПЛАТА СНИЗУ ГДЕ КАПИРАЙТ*/
+	.qiwi {float: center;}/*ОПЛАТА СНИЗУ ГДЕ КАПИРАЙТ*/
+	.menu{position: absolute;right: 800px;top: 150px;}
+	.nocopy{position: absolute;bottom: 0px;}
+	
